@@ -47,7 +47,7 @@
 }
 
 .blurb {
-	font-family: 'Noticia Text', serif;
+	font-family: 'Arial', serif;
 	font-size: 16px;
 	color: #000000;
 /*    text-align: justify;
@@ -55,25 +55,25 @@
 }
 
 .ul {
-	font-family: 'Noticia Text', serif;
+	font-family: 'Arial', serif;
 	font-size: 16px;
 	margin-bottom: 22px;
 }
 
 .ul a {
-	font-family: 'Noticia Text', serif;
+	font-family: 'Arial', serif;
 	font-size: 16px;
 	color: #2199e8;
 }
 
 .ulm {
-	font-family: 'Noticia Text', serif;
+	font-family: 'Arial', serif;
 	font-size: 16px;
 	margin-bottom: 22px;
 }
 
 .ulm a {
-	font-family: 'Noticia Text', serif;
+	font-family: 'Arial', serif;
 	font-size: 16px;
 	color: #2199e8;
 }
@@ -85,7 +85,7 @@
 
 .heading {
 	/*font-family: 'Oswald', sans-serif;*/
-	font-family: 'Ribeye Marrow', cursive;
+	font-family: 'Arial', cursive;
 	font-size: 75px;
 	color: #a9a9a9;
 	text-align: center;
@@ -93,23 +93,18 @@
 
 .subText {
 	/*font-family: 'Roboto Slab', serif;*/
-	font-family: 'Antic Slab', serif;
+	font-family: 'Arial', serif;
 	font-size: 31px;
 	color: #a9a9a9;
 	text-align: center;
 }
 
 .rightBorder {
-	borderRight: dashed #a9a9a9; 
+	borderRight: dashed #a9a9a9;
 	borderWidth: 2px;
 }
 
 .bottomBorder {
-	borderBottom: dashed #a9a9a9; 
+	borderBottom: dashed #a9a9a9;
 	borderWidth: 2px;
 }
-
-
-
-
-

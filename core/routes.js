@@ -75,15 +75,15 @@ export const routes = (
         component={props => <Dashboard config={CONFIG} {...props} />}
       />
     )}
-    {CONFIG.forum && (
+    {/*CONFIG.forum && (
       <Route path="/forum" component={Forum}>
         <Route path=":id" component={ForumQuestion} />
       </Route>
-    )}
+    )*/}
     <Route path="/projects" component={Projects} />
     <Route path="/archive" component={Archive} />
     <Route path="/results" component={ResultsContainer} />
-    <Route path="/findings" component={Findings} />
+    {/* <Route path="/findings" component={Findings} /> */}
     <Route path="/about" component={About} />
     <Route path="/updates" component={Updates} />
     <Route path="/mobile-not-supported" component={MobileNotSupported} />

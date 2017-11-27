@@ -63,7 +63,7 @@ class Header extends React.Component {
             <div
               className={s.landing}
               style={{
-                backgroundImage: `url(${require('../../img/logo_button-min.png')})`
+                backgroundImage: `url(${require('../../img/placeholder1.png')})`
               }}
             />
           </Link>
@@ -81,7 +81,7 @@ class Header extends React.Component {
           ref={node => (this.root = node)}
         >
           <b.Image
-            src={require('../../img/gww_logo.png')}
+            src={require('../../img/placeholder1.png')}
             className={s.logo}
             style={{ marginTop: '5px', height: '90px' }}
           />
@@ -108,19 +108,27 @@ class Header extends React.Component {
                     <span className={s.navLinks}>Quizzes</span>
                   </b.MenuItem>
                 </LinkContainer>
+
+                {/*
                 <LinkContainer to="/findings">
                   <b.MenuItem>
                     <span className={s.navLinks}>Findings</span>
                   </b.MenuItem>
                 </LinkContainer>
+                */}
+
                 <LinkContainer to="/about">
                   <b.MenuItem>
                     <span className={s.navLinks}>About</span>
                   </b.MenuItem>
                 </LinkContainer>
+
+                {/*
                 <b.MenuItem href="https://blog.gameswithwords.org/">
                   <span className={s.navLinks}>Blog</span>
                 </b.MenuItem>
+                */}
+
                 {typeof loggedIn !== 'undefined' && (
                   <LinkContainer to="/dashboard">
                     <b.MenuItem>
@@ -128,6 +136,8 @@ class Header extends React.Component {
                     </b.MenuItem>
                   </LinkContainer>
                 )}
+
+                {/*
                 {showForum && (
                   <LinkContainer to="/forum">
                     <b.MenuItem>
@@ -135,6 +145,8 @@ class Header extends React.Component {
                     </b.MenuItem>
                   </LinkContainer>
                 )}
+                */}
+
               </b.NavDropdown>
             </b.Nav>
           </div>
@@ -149,19 +161,19 @@ class Header extends React.Component {
         >
           {this.home() ? (
             <b.Image
-              src={require('../../img/logo_square-min.png')}
+              src={require('../../img/placeholder1.png')}
               responsive
             />
           ) : (
             <b.Image
-              src={require('../../img/gww_logo.png')}
+              src={require('../../img/placeholder1.png')}
               className={s.logo}
             />
           )}
           <b.Nav
             style={{
               margin: '0px',
-              fontFamily: "'Ribeye Marrow', cursive",
+              fontFamily: "'Arial', cursive",
               fontSize: '20px',
               backgroundColor: '#a9a9a9'
             }}
@@ -177,23 +189,35 @@ class Header extends React.Component {
             <LinkContainer to="/quizzes">
               <b.NavItem>Quizzes</b.NavItem>
             </LinkContainer>
+
+            {/*
             <LinkContainer to="/findings">
               <b.NavItem>Findings</b.NavItem>
             </LinkContainer>
+            */}
+
             <LinkContainer to="/about">
               <b.NavItem>About</b.NavItem>
             </LinkContainer>
+
+            {/*
             <b.NavItem href="https://blog.gameswithwords.org/">Blog</b.NavItem>
+            */}
+
             {typeof loggedIn !== 'undefined' && (
               <LinkContainer to="/dashboard">
                 {this.showDashboardOrLogIn(loggedIn)}
               </LinkContainer>
             )}
+
+            {/*
             {showForum && (
               <LinkContainer to="/forum">
                 <b.NavItem>Forum</b.NavItem>
               </LinkContainer>
             )}
+            */}
+
           </b.Nav>
         </header>
       );

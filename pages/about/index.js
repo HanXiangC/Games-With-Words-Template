@@ -77,28 +77,23 @@ class AboutPage extends React.Component {
                 }
               >
                 <p className={s.sub}>
-                  GamesWithWords.org is a Web-based research laboratory. The
-                  quizzes and projects are research studies probing the nature
-                  of language. Learn more about the research and the people
-                  involved by clicking on the links on the right. To read
-                  reports of completed studies, choose{' '}
-                  <a href="/findings">findings</a> from the menu bar.
+                  Lorem ipsum dolor sit amet, dicta commune adolescens ne sed, nec possit nostrum eu.
+                  Vix quas aperiam inimicus no. Ut nec quidam verear erroribus, nam ad laudem semper placerat.
+                  Ut ornatus conclusionemque his, eum ei magna saepe nullam, quo tota pericula in.
                 </p>
                 <p className={s.sub}>
-                  To get updates about all GamesWithWords.org projects,
-                  including announcements of publications based on this
-                  research, click{' '}
-                  <a onTouchTap={() => this.setState({ updates: true })}>
-                    here
-                  </a>.
+                  Lorem ipsum dolor sit amet, dicta commune adolescens ne sed, nec possit nostrum eu.
+                  Vix quas aperiam inimicus no. Ut nec quidam verear erroribus, nam ad laudem semper placerat.
+                  Ut ornatus conclusionemque his, eum ei magna saepe nullam, quo tota pericula in.
                 </p>
                 <p className={s.sub}>
-                  Through November 2009, GamesWithWords.org was called
-                  CogLangLab.org. Empirical research found that the older name
-                  was too hard to say.
+                  Lorem ipsum dolor sit amet, dicta commune adolescens ne sed, nec possit nostrum eu.
+                  Vix quas aperiam inimicus no. Ut nec quidam verear erroribus, nam ad laudem semper placerat.
+                  Ut ornatus conclusionemque his, eum ei magna saepe nullam, quo tota pericula in.
                 </p>
               </div>
             </b.Col>
+            {/*
             <b.Col xs={12} md={3}>
               <div style={{ marginTop: '20px' }} ref="list">
                 <a>
@@ -119,6 +114,8 @@ class AboutPage extends React.Component {
                         x
                       </a>
                     </span>
+
+                    {/*
                     <b.Modal.Title>People</b.Modal.Title>
                   </b.Modal.Header>
                   <b.Modal.Body className={s.blurb}>
@@ -666,7 +663,9 @@ class AboutPage extends React.Component {
                       </a>
                     </span>
                     <b.Modal.Title>Updates</b.Modal.Title>
+
                   </b.Modal.Header>
+
                   <b.Modal.Body className={s.blurb}>
                     <iframe
                       src="https://gameswithwords.us14.list-manage.com/subscribe?u=0e422ef6ec0edf20f671a1eb5&id=96cab4d244"
@@ -682,9 +681,11 @@ class AboutPage extends React.Component {
                       Close
                     </b.Button>
                   </b.Modal.Footer>
+
                 </b.Modal>
               </div>
             </b.Col>
+            */}
           </b.Row>
         </div>
       </div>

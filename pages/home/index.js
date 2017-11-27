@@ -20,20 +20,20 @@ class HomePage extends React.Component {
           <Row className={s.display}>
             <Col sm={12} lg={6} className={s.textCenter}>
               <Image
-                src={require('../../gif/3.gif')}
+                src={require('../../img/placeholder1.png')}
                 responsive
                 className={s.gif}
               />
             </Col>
             <Col sm={12} lg={5} className={s.textCenter}>
               <p className={s.title}>
-                <b>Contribute to linguistics research.</b>
+                <b>Placeholder Title</b>
               </p>
               <p className={s.blurb}>
-                With modern technology, it is the perfect time for professional
-                and amateur scientists to collaborate. Together, we can explore
-                the human mind by tackling the most pressing questions about our
-                ability to acquire and learn language. What are you waiting for?
+                Ius consul eruditi voluptaria ea, ex simul inermis qualisque quo.
+                Facilisi patrioque pro ei, pro dicant omittam eu, timeam feugait argumentum eum in.
+                Eos id alii case electram, pro possit suavitate corrumpit an. Mel et soluta vituperata,
+                liber virtute ut quo, eam scripta apeirian philosophia ne.
               </p>
             </Col>
           </Row>
@@ -43,20 +43,19 @@ class HomePage extends React.Component {
             <Col lg={1} />
             <Col lg={5} className={s.textCenter}>
               <p className={s.title} style={{ marginTop: '90px' }}>
-                <b>Collaborate with citizen scientists.</b>
+                <b>Placeholder Title</b>
               </p>
               <p className={s.blurb}>
-                It doesn't matter who you are. Join our interdisciplinary team
-                of psychologists, computer scientists, and linguists today.
-                Whether it's contributing to our blog or posting a question in
-                the forum, you can advance science and mingle with people who
-                are just as interested in research as you are.
+                Ius consul eruditi voluptaria ea, ex simul inermis qualisque quo.
+                Facilisi patrioque pro ei, pro dicant omittam eu, timeam feugait argumentum eum in.
+                Eos id alii case electram, pro possit suavitate corrumpit an. Mel et soluta vituperata,
+                liber virtute ut quo, eam scripta apeirian philosophia ne.
               </p>
             </Col>
             <Col lg={6} className={s.textCenter}>
               <Image
                 style={{ marginTop: '90px' }}
-                src={require('../../gif/2.gif')}
+                src={require('../../img/placeholder1.png')}
                 responsive
                 className={s.gif}
               />
@@ -67,20 +66,20 @@ class HomePage extends React.Component {
           <Row className={s.display}>
             <Col sm={12} lg={6} className={s.textCenter}>
               <Image
-                src={require('../../gif/1.gif')}
+                src={require('../../img/placeholder1.png')}
                 responsive
                 className={s.gif}
               />
             </Col>
             <Col sm={12} lg={5} className={s.textCenter}>
               <p className={s.title}>
-                <b>Discover new findings and learn.</b>
+                <b>Placeholder Title</b>
               </p>
               <p className={s.blurb}>
-                As volunteer scientists, you deserve to know the various
-                exciting results produced from the lab. Head on over to the blog
-                for articles, subscribe to our mailing list, and get ready to
-                unlock the mysteries of human language.
+                Ius consul eruditi voluptaria ea, ex simul inermis qualisque quo.
+                Facilisi patrioque pro ei, pro dicant omittam eu, timeam feugait argumentum eum in.
+                Eos id alii case electram, pro possit suavitate corrumpit an. Mel et soluta vituperata,
+                liber virtute ut quo, eam scripta apeirian philosophia ne.
               </p>
             </Col>
           </Row>

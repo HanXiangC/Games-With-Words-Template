@@ -29,9 +29,9 @@ class QuizPage extends React.Component {
               <Col xs={12}>
                 <div className={s.blurb}>
                   <p className={s.sub}>
-                    Want to learn new things about yourself while simultaneously
-                    making important contributions to science? Take one of our
-                    quizzes below.
+                    Lorem ipsum dolor sit amet, dicta commune adolescens ne sed, nec possit nostrum eu.
+                    Vix quas aperiam inimicus no. Ut nec quidam verear erroribus, nam ad laudem semper placerat.
+                    Ut ornatus conclusionemque his, eum ei magna saepe nullam, quo tota pericula in.
                   </p>
                   <hr />
 

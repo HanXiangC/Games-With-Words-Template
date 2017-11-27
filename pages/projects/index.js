@@ -27,13 +27,9 @@ class ProjectPage extends React.Component {
               <Col xs={12}>
                 <div className={s.blurb}>
                   <p className={s.sub}>
-                    Want to participate in science not just as a subject but as
-                    a researcher? Professional researchers are increasingly{' '}
-                    <a href="http://en.wikipedia.org/wiki/Citizen_science">
-                      turning to amateurs
-                    </a>{' '}
-                    to solve critical scientific problems. Help out with one of
-                    our projects below.
+                    Lorem ipsum dolor sit amet, dicta commune adolescens ne sed, nec possit nostrum eu.
+                    Vix quas aperiam inimicus no. Ut nec quidam verear erroribus, nam ad laudem semper placerat.
+                    Ut ornatus conclusionemque his, eum ei magna saepe nullam, quo tota pericula in.
                   </p>
                   <hr />
                   {/*<p className={s.sub} style={{marginLeft:'20px', marginRight:'20px'}} ><Link className={s.title} to="/projects/verbcorner">VerbCorner</Link><br />Help us crowdsource the structure of language, meaning, and thought</p>*/}
@@ -41,20 +37,15 @@ class ProjectPage extends React.Component {
                     className={s.sub}
                     style={{ marginLeft: '20px', marginRight: '20px' }}
                   >
-                    <a
-                      className={s.title}
-                      href="http://archive.gameswithwords.org/VerbCorner"
-                    >
-                      VerbCorner
-                    </a>
-                    <br />Help us crowdsource the structure of language,
-                    meaning, and thought
+                    Lorem ipsum dolor sit amet, dicta commune adolescens ne sed, nec possit nostrum eu.
+                    Vix quas aperiam inimicus no. Ut nec quidam verear erroribus, nam ad laudem semper placerat.
+                    Ut ornatus conclusionemque his, eum ei magna saepe nullam, quo tota pericula in.
                   </p>
                   <hr />
                   <p className={s.sub}>
-                    More coming soon... In the meantime, check{' '}
-                    <a href="http://scistarter.org">SciStarter.org</a> for more
-                    &quot;citizen science&quot; projects.
+                    Lorem ipsum dolor sit amet, dicta commune adolescens ne sed, nec possit nostrum eu.
+                    Vix quas aperiam inimicus no. Ut nec quidam verear erroribus, nam ad laudem semper placerat.
+                    Ut ornatus conclusionemque his, eum ei magna saepe nullam, quo tota pericula in.
                   </p>
                 </div>
               </Col>

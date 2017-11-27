@@ -19,33 +19,33 @@ class PathsPage extends React.Component {
           <Col sm={12} lg={6} className={s.gif + ' ' + s.border}>
             <Link href="/projects">
               <Image
-                src={require('../../gif/res.gif')}
+                src={require('../../img/placeholder1.png')}
                 style={{ marginTop: '25px' }}
                 responsive
                 className={s.gif}
               />
             </Link>
             <p className={s.subText}>
-              <b>Researcher</b>
+              <b>Option 1</b>
             </p>
             <p className={s.subText} style={{ marginBottom: '50px' }}>
-              Take control and help unlock the mysteries of language.
+              Placeholder Description
             </p>
           </Col>
           <Col sm={12} lg={6} className={s.gif + ' ' + s.margin}>
             <Link to="/quizzes">
               <Image
-                src={require('../../gif/par.gif')}
+                src={require('../../img/placeholder1.png')}
                 style={{ marginTop: '25px' }}
                 responsive
                 className={s.gif}
               />
             </Link>
             <p className={s.subText}>
-              <b>Participant</b>
+              <b>Option 2</b>
             </p>
             <p className={s.subText} style={{ marginBottom: '50px' }}>
-              Be a part of linguistics research and support our scientists.
+              Placeholder Description
             </p>
           </Col>
         </Row>

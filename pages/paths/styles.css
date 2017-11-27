@@ -84,13 +84,13 @@
 }
 
 .title {
-	font-family: 'Noticia Text', serif;
+	font-family: 'Arial', serif;
 	font-size: 23px;
 	color: #D19336;
 }
 
 .blurb {
-	font-family: 'Noticia Text', serif;
+	font-family: 'Arial', serif;
 	font-size: 16px;
 	color: #082046;
     text-align: justify;
@@ -104,7 +104,7 @@
 
 .heading {
 	/*font-family: 'Oswald', sans-serif;*/
-	font-family: 'Ribeye Marrow', cursive;
+	font-family: 'Arial', cursive;
 	font-size: 60px;
 	line-height: 60px;
 	color: #000000;
@@ -113,7 +113,7 @@
 
 .subText {
 	/*font-family: 'Roboto Slab', serif;*/
-	font-family: 'Antic Slab', serif;
+	font-family: 'Arial', serif;
 	font-size: 31px;
 	color: #000000;
 	text-align: center;
@@ -121,16 +121,11 @@
 }
 
 .rightBorder {
-	borderRight: dashed #a9a9a9; 
+	borderRight: dashed #a9a9a9;
 	borderWidth: 2px;
 }
 
 .bottomBorder {
-	borderBottom: dashed #a9a9a9; 
+	borderBottom: dashed #a9a9a9;
 	borderWidth: 2px;
 }
-
-
-
-
-

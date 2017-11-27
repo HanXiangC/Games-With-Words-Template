@@ -96,24 +96,24 @@ li a:hover {
 }
 .nav {
   margin: 0;
-  font-family: 'Ribeye Marrow', cursive; 
+  font-family: 'Arial', cursive;
   font-size: 20px;
   background-color: #A9A9A9;
 }
 
 .navLinks {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Arial', serif;
     font-size: 15px;
 }
 
-/*div.landing { 
-    background: url(/../../img/logo_button-min.png) no-repeat center center; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
+/*div.landing {
+    background: url(/../../img/logo_button-min.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     width: 100%;
-    height: 80vh; 
+    height: 80vh;
 }*/
 
 /*@import url("https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.4/foundation-flex.css");*/
