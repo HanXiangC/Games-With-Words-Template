@@ -1,5 +1,5 @@
 export const CONFIG = {
-  forum: false,
-  auth: false,
+  forum: true,
+  auth: true,
   popup: 5
 };
