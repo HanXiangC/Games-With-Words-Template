@@ -28,16 +28,14 @@ class QuizPage extends React.Component {
             <Row>
               <Col xs={12}>
                 <div className={s.blurb}>
-                  <p className={s.sub}>
-                    Lorem ipsum dolor sit amet, dicta commune adolescens ne sed, nec possit nostrum eu.
-                    Vix quas aperiam inimicus no. Ut nec quidam verear erroribus, nam ad laudem semper placerat.
-                    Ut ornatus conclusionemque his, eum ei magna saepe nullam, quo tota pericula in.
-                  </p>
+                <p className={s.sub}>
+                    Introduce your quizzes and include links to them here.
+                  </p> 
                   <hr />
 
                   {/*<p className={s.mb25} ><Link className={s.title} to="http://archive.gameswithwords.org/WhichEnglish">Which English?</Link><br />Help us map the grammar of English around the world? <strong>See our best guess as to which world English you speak.</strong></p>*/}
 
-                  <p className={s.mb25}>
+                  {/*<p className={s.mb25}>
                     <a
                       className={s.title}
                       href="http://archive.gameswithwords.org/WhichEnglish"
@@ -48,9 +46,9 @@ class QuizPage extends React.Component {
                     <strong>
                       See our best guess as to which world English you speak.
                     </strong>
-                  </p>
+                  </p> */}
 
-                  <p className={s.mb25}>
+                 {/*} <p className={s.mb25}>
                     <a
                       className={s.title}
                       href="http://archive.gameswithwords.org/VocabQuiz"
@@ -82,7 +80,7 @@ class QuizPage extends React.Component {
                   <p className={s.sub}>
                     For results of these projects and announcements of new
                     projects, click <a href="/updates">here</a>.
-                  </p>
+                  </p> */}
                 </div>
               </Col>
             </Row>

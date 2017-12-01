@@ -76,7 +76,7 @@ class AboutPage extends React.Component {
                     : { marginRight: '20px', fontSize: '18px' }
                 }
               >
-                <p className={s.sub}>
+                {/*<p className={s.sub}>
                   Lorem ipsum dolor sit amet, dicta commune adolescens ne sed, nec possit nostrum eu.
                   Vix quas aperiam inimicus no. Ut nec quidam verear erroribus, nam ad laudem semper placerat.
                   Ut ornatus conclusionemque his, eum ei magna saepe nullam, quo tota pericula in.
@@ -85,11 +85,9 @@ class AboutPage extends React.Component {
                   Lorem ipsum dolor sit amet, dicta commune adolescens ne sed, nec possit nostrum eu.
                   Vix quas aperiam inimicus no. Ut nec quidam verear erroribus, nam ad laudem semper placerat.
                   Ut ornatus conclusionemque his, eum ei magna saepe nullam, quo tota pericula in.
-                </p>
+                </p> */}
                 <p className={s.sub}>
-                  Lorem ipsum dolor sit amet, dicta commune adolescens ne sed, nec possit nostrum eu.
-                  Vix quas aperiam inimicus no. Ut nec quidam verear erroribus, nam ad laudem semper placerat.
-                  Ut ornatus conclusionemque his, eum ei magna saepe nullam, quo tota pericula in.
+                  Introduce yourself here.
                 </p>
               </div>
             </b.Col>

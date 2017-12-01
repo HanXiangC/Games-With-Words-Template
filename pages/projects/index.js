@@ -27,13 +27,11 @@ class ProjectPage extends React.Component {
               <Col xs={12}>
                 <div className={s.blurb}>
                   <p className={s.sub}>
-                    Lorem ipsum dolor sit amet, dicta commune adolescens ne sed, nec possit nostrum eu.
-                    Vix quas aperiam inimicus no. Ut nec quidam verear erroribus, nam ad laudem semper placerat.
-                    Ut ornatus conclusionemque his, eum ei magna saepe nullam, quo tota pericula in.
+                    Introduce your projects and include links to them here.
                   </p>
                   <hr />
                   {/*<p className={s.sub} style={{marginLeft:'20px', marginRight:'20px'}} ><Link className={s.title} to="/projects/verbcorner">VerbCorner</Link><br />Help us crowdsource the structure of language, meaning, and thought</p>*/}
-                  <p
+                  {/*<p
                     className={s.sub}
                     style={{ marginLeft: '20px', marginRight: '20px' }}
                   >
@@ -46,7 +44,7 @@ class ProjectPage extends React.Component {
                     Lorem ipsum dolor sit amet, dicta commune adolescens ne sed, nec possit nostrum eu.
                     Vix quas aperiam inimicus no. Ut nec quidam verear erroribus, nam ad laudem semper placerat.
                     Ut ornatus conclusionemque his, eum ei magna saepe nullam, quo tota pericula in.
-                  </p>
+                  </p> */}
                 </div>
               </Col>
             </Row>

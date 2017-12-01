@@ -59,18 +59,10 @@ class Header extends React.Component {
     if (this.home()) {
       return (
         <header id="header">
-          <Link to="/paths">
-            <div
-              className={s.landing}
-              style={{
-                backgroundImage: `url(${require('../../img/placeholder1.png')})`
-              }}
-            />
-          </Link>
-          <b.Image
+          {/*<b.Image
             style={{ display: 'none' }}
             src={require('../../img/favicon.ico')}
-          />
+          /> */}
         </header>
       );
     } else if (this.state.mobile && !this.home()) {
@@ -80,11 +72,11 @@ class Header extends React.Component {
           id="header"
           ref={node => (this.root = node)}
         >
-          <b.Image
+         {/*} <b.Image
             src={require('../../img/placeholder1.png')}
             className={s.logo}
             style={{ marginTop: '5px', height: '90px' }}
-          />
+          /> */}
           <div className={s.navWrapper}>
             <b.Nav bsStyle="pills">
               <b.NavDropdown
@@ -93,11 +85,11 @@ class Header extends React.Component {
                 style={{ padding: '3px', marginTop: '2px' }}
                 id="bg-nested-dropdown"
               >
-                <LinkContainer to="/paths">
+               {/* <LinkContainer to="/paths">
                   <b.MenuItem>
                     <span className={s.navLinks}>Paths</span>
                   </b.MenuItem>
-                </LinkContainer>
+                </LinkContainer> */}
                 <LinkContainer to="/projects">
                   <b.MenuItem>
                     <span className={s.navLinks}>Projects</span>
@@ -159,17 +151,17 @@ class Header extends React.Component {
           id="header"
           ref={node => (this.root = node)}
         >
-          {this.home() ? (
+          {/*{this.home() ? (
             <b.Image
               src={require('../../img/placeholder1.png')}
               responsive
-            />
+            /> 
           ) : (
             <b.Image
               src={require('../../img/placeholder1.png')}
               className={s.logo}
-            />
-          )}
+            /> 
+          )} */}
           <b.Nav
             style={{
               margin: '0px',
@@ -180,9 +172,9 @@ class Header extends React.Component {
             bsStyle="tabs"
             justified
           >
-            <LinkContainer to="/paths">
+            {/*<LinkContainer to="/paths">
               <b.NavItem>Paths</b.NavItem>
-            </LinkContainer>
+            </LinkContainer> */}
             <LinkContainer to="/projects">
               <b.NavItem>Projects</b.NavItem>
             </LinkContainer>

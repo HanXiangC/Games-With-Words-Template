@@ -19,14 +19,14 @@ class PathsPage extends React.Component {
           <Col sm={12} lg={6} className={s.gif + ' ' + s.border}>
             <Link href="/projects">
               <Image
-                src={require('../../img/placeholder1.png')}
+                src={require('../../img/r3.jpg')}
                 style={{ marginTop: '25px' }}
                 responsive
                 className={s.gif}
               />
             </Link>
             <p className={s.subText}>
-              <b>Option 1</b>
+              <b>Researcher</b>
             </p>
             <p className={s.subText} style={{ marginBottom: '50px' }}>
               Placeholder Description
@@ -35,16 +35,16 @@ class PathsPage extends React.Component {
           <Col sm={12} lg={6} className={s.gif + ' ' + s.margin}>
             <Link to="/quizzes">
               <Image
-                src={require('../../img/placeholder1.png')}
+                src={require('../../img/p1.jpg')}
                 style={{ marginTop: '25px' }}
                 responsive
                 className={s.gif}
               />
             </Link>
             <p className={s.subText}>
-              <b>Option 2</b>
+              <b>Participant</b>
             </p>
-            <p className={s.subText} style={{ marginBottom: '50px' }}>
+            <p className={s.subText} style={{ marginBottom: '5px' }}>
               Placeholder Description
             </p>
           </Col>
