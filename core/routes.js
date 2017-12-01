@@ -54,8 +54,8 @@ export const routes = (
       <Container auth={authSwitcher()} showForum={CONFIG.forum} {...props} />
     )}
   >
-    <IndexRoute component={HomePage} />
-    <Route path="/paths" component={Paths} />
+    <IndexRoute component={Paths} />
+   { <Route path="/paths" component={Paths} />}
     {/*
   <Route path="/quizzes" component={Quizzes}>
     <Route path="/quizzes/listener-quiz" component={listener-quiz} />
